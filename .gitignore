@@ -1,0 +1,137 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv
+venv/
+.python-version
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+.pytest-reports
+.pytest_cache
+*,cover
+.hypothesis/
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Ipython Notebook
+.ipynb_checkpoints
+
+# Vagrant
+.vagrant
+
+# Sublime Text
+*.sublime-*
+
+# Environment variables
+.env
+.DS_Store
+
+# Celery
+celerybeat.pid
+celerybeat-schedule
+celerybeat-schedule.*
+celerybeat-schedule
+
+# Redis
+dump.rdb
+
+# Rasa NLP models
+rasa/models/dialogue
+rasa/hist.png
+rasa/confmat.png
+rasa/errors.json
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ
+.idea/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+*~
+tags
+
+config/rabbitmq/enabled_plugins
+
+# Linters
+.mypy_cache/
+.vscode/settings.json
+
+# Sass
+.sass-cache
+
+# Docker
+docker-compose.override.yml
+apispec.html
+
+# asdf config
+.tool-versions
+
+# localstack
+.localstack
+
+# sqlite
+*.sqlite
+*.sqlite3
+
+# linters
+*.ruff_cache
+
+# thumbnails
+*.jpg
