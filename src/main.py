@@ -19,6 +19,11 @@ def get_db():
         db.close()
 
 
+@app.get("/health")
+def get_health():
+    return {"status": "ok"}
+
+
 # Endpoint to create image metadata and store it in the database
 @app.post("/search/random_image/", response_model=schemas.ImageResponse)
 def search_random_image(image_data: schemas.ImageCreate, db: Session = Depends(get_db)):

@@ -6,6 +6,7 @@ from io import BytesIO
 import os
 import uuid
 from .config import settings
+from fastapi import HTTPException
 
 
 def build_unsplash_request_params(search_term, orientation, color):
@@ -108,4 +109,6 @@ def generate_unique_link(image_data, image_url):
         else:
             raise Exception("Failed to create the unique link")
     else:
-        raise Exception("No image found from the API")
+        raise HTTPException(
+            status_code=404, detail="No image found for the provided search term"
+        )
