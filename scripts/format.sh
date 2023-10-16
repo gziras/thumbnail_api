@@ -1,5 +1,5 @@
 #!/bin/sh -e
 set -x
 
-ruff --fix src
 black src
+ruff --fix src
