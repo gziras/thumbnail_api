@@ -46,7 +46,7 @@ docker-compose up -d
 This command will build the Docker containers and start the application in detached mode.
 
 ## API Documentation
-You may access the API documentation under http://localhost:8000/api/docs/. The documentation provides details about each endpoint, including the supported HTTP methods, input parameters, response formats, and example requests/responses
+You may access the API documentation under http://localhost:8000/docs/. The documentation provides details about each endpoint, including the supported HTTP methods, input parameters, response formats, and example requests/responses.
 
 ## API Endpoints
 
